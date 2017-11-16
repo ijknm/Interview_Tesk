@@ -26,6 +26,7 @@ class SignInViewController: BaseViewController {
   
     @IBAction func didTapOnNewUserButton(_ sender: Any) {
         // Needs implement funcationality
+         self.performSegue(withIdentifier: "NewUser", sender: nil)
     }
     
     // Sign In Button Tapped

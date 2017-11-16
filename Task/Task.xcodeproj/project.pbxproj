@@ -10,6 +10,7 @@
 		AC31396E1FBB809C00EEB7E7 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31396C1FBB809C00EEB7E7 /* ListTableViewCell.swift */; };
 		AC42C8231FBC7C710053B9DD /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42C8221FBC7C700053B9DD /* String.swift */; };
 		AC42C8251FBC7FE30053B9DD /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC42C8241FBC7FE30053B9DD /* ListTableViewCell.xib */; };
+		ACA3B8621FBDF4BE00E27AFB /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B8611FBDF4BE00E27AFB /* NewUserViewController.swift */; };
 		ACDB56141FBB5DB10049C05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB56131FBB5DB10049C05E /* AppDelegate.swift */; };
 		ACDB56191FBB5DB10049C05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDB56171FBB5DB10049C05E /* Main.storyboard */; };
 		ACDB561B1FBB5DB10049C05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDB561A1FBB5DB10049C05E /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		AC31396C1FBB809C00EEB7E7 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		AC42C8221FBC7C700053B9DD /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		AC42C8241FBC7FE30053B9DD /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		ACA3B8611FBDF4BE00E27AFB /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
 		ACDB56101FBB5DB10049C05E /* Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDB56131FBB5DB10049C05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACDB56181FBB5DB10049C05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 				AC42C8241FBC7FE30053B9DD /* ListTableViewCell.xib */,
 			);
 			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		ACA3B8601FBDF46300E27AFB /* New User */ = {
+			isa = PBXGroup;
+			children = (
+				ACA3B8611FBDF4BE00E27AFB /* NewUserViewController.swift */,
+			);
+			path = "New User";
 			sourceTree = "<group>";
 		};
 		ACDB56071FBB5DB10049C05E = {
@@ -163,6 +173,7 @@
 				ACDB56471FBB5F840049C05E /* SignInView */,
 				ACDB564F1FBB608C0049C05E /* ListView */,
 				ACDB56521FBB60CF0049C05E /* DetailView */,
+				ACA3B8601FBDF46300E27AFB /* New User */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -340,6 +351,7 @@
 				ACDB56511FBB60BC0049C05E /* ListViewController.swift in Sources */,
 				AC42C8231FBC7C710053B9DD /* String.swift in Sources */,
 				ACDB564E1FBB60710049C05E /* BaseViewController.swift in Sources */,
+				ACA3B8621FBDF4BE00E27AFB /* NewUserViewController.swift in Sources */,
 				AC31396E1FBB809C00EEB7E7 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

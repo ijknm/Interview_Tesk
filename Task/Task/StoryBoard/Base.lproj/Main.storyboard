@@ -128,11 +128,27 @@
                         <outlet property="ibEmailId" destination="nsb-Dw-ULY" id="DHK-7W-Y45"/>
                         <outlet property="ibPassWord" destination="pe3-FT-3XR" id="Cgb-qT-emL"/>
                         <segue destination="Eug-Cn-ZYB" kind="show" identifier="SignView" id="5Hs-eU-kuQ"/>
+                        <segue destination="WBY-jM-b2e" kind="show" identifier="NewUser" id="QcG-jd-VGK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCo-OG-VeL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="118" y="-36"/>
+        </scene>
+        <!--New User View Controller-->
+        <scene sceneID="iWk-0b-xYf">
+            <objects>
+                <viewController storyboardIdentifier="NewUserViewController" id="WBY-jM-b2e" customClass="NewUserViewController" customModule="Task" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2dM-9N-NaC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Fn1-JT-2O4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M5t-dB-pWh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166" y="761"/>
         </scene>
         <!--List View Controller-->
         <scene sceneID="TxN-RP-QkZ">
